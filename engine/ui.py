@@ -1,6 +1,6 @@
 import pygame
 import math
-from constants import *
+from engine.constants import *
 
 def rotate_tracked_cw(b):
     return [[b[ROWS - 1 - c][r] for c in range(COLS)] for r in range(ROWS)]

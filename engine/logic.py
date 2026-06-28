@@ -1,5 +1,5 @@
 import random
-from constants import ROWS, COLS
+from engine.constants import ROWS, COLS
 
 def new_board():
     b = [[0] * COLS for _ in range(ROWS)]

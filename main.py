@@ -1,7 +1,7 @@
 import pygame
-from constants import FPS, WINDOW
-from logic import new_board, push, spawn, has_2048, any_move
-from ui import make_overlay, make_anims, step_anims, draw_anim, draw_board
+from engine.constants import FPS, WINDOW
+from engine.logic import new_board, push, spawn, has_2048, any_move
+from engine.ui import make_overlay, make_anims, step_anims, draw_anim, draw_board
 
 def main():
     clock      = pygame.time.Clock()
