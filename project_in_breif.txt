@@ -1,0 +1,10 @@
+& "C:\Users\tvrao\anaconda3\python.exe" "c:\Users\tvrao\2048_game\main.py"
+game dynamics:
+     ->box in top left 00
+     ->4x4 grid
+     ->initially 2 tiles usually 2 or 4
+     -> on each move you swipe up,down,left or right
+     ->all tiles slides in that direction as far as possible
+     ->2 tiles with same value collide they merge into one single tile and value gets doubled.
+     ->after every move a new tile gets added up which might be a 2 or 4.
+
